@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "tensor",
+  "id": "plugin",
   "version": "${version}",
 
   "name": "Tensor-Example-Plugin",

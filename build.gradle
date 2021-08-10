@@ -13,7 +13,7 @@ dependencies {
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-	modImplementation files("lib/tensor-0.8.0-SNAPSHOT.jar")
+	implementation(files("lib/tensor-0.8.0-SNAPSHOT.jar"))
 }
 
 processResources {

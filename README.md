@@ -4,3 +4,5 @@ Example project for a Tensor plugin... You can probably make your own implementa
 Methods annotated with the @PluginEntryPoint annotation are the primary connection points to adding modules, commands, events, exc.
 
 Really any version (or snapshot) of tensor should work pretty consistantly beyond 0.8.0-RELEASE.
+
+Make sure to use the remapped jar appended with "-dev" or else some methods will return gibberish.
